@@ -1,0 +1,53 @@
+.header{
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-personal{
+    background-color: var(--color-primario);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: 100px;
+}
+
+.navbar-brand span{
+    font-family: "Playfair Display", serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.navbar-brand img{
+    object-fit: cover;
+    border: 2px solid #fff;
+}
+
+.navbar-nav .nav-link{
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active{
+    background-color: rgba(255, 255, 255, 0.15);
+    color: #fff;
+}
+
+.nav-link.custom-link{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.nav-link.custom-link:hover{
+    color: var(--color-acento);
+}
+
+.navbar-toggler{
+    border: none;
+    color: #fff;
+}
